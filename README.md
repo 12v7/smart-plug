@@ -18,7 +18,7 @@ First you need to enter your wireless network name and password in the main.py f
 There are a few other options here, such as the number of output channels and input buttons.
 Then [flash your pico](https://picockpit.com/raspberry-pi/raspberry-pi-pico-and-micropython-on-windows) with MicroPython and upload the files (main.py, main.js, index.htm, close.svg, plus.svg, upload.svg) to it.
 After rebooting the board will connect to the network. 
-Then you need to find out the IP of the board and open it with your browser.
+Then you need to find out the IP of the board and open it with your browser:
 
 ![screenshot.png](screenshot.png)
 
@@ -29,6 +29,7 @@ The following events are currently supported:
 * OnUpload - Run immediately after uploading the programme to the board
 * OnReset - Run immediately after the board reboots
 * OnKey0...OnKey3 - Run when a button is pressed
+
 And commands:
 * Say - User notification by buzzer or LED sequence
 * Wait - Delay for a specified amount seconds
